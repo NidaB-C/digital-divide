@@ -5,6 +5,9 @@ This project aims to develop a comprehensive data engineering solution to analyz
 
 Our motivation is rooted in the belief that well-structured and accessible data can unlock insights into exercise behaviors, aiding individuals and researchers in making informed decisions about physical activity. With a commitment to privacy and ethical data use, this project serves as a foundation for scalable data-driven analysis in the realm of personal fitness.
 
+### Contents
+- [Key Features](Key-Features)
+
 ### Key Features
 
 - **ETL Workflow**: Implements a robust Extract, Transform, Load (ETL) process to ingest and refine fitness activity data.
