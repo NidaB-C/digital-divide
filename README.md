@@ -1,3 +1,4 @@
+# Project 3
 
 ## Project Overview
 
@@ -7,6 +8,13 @@ Our motivation is rooted in the belief that well-structured and accessible data 
 
 ### Contents
 - [Key Features](Key-Features)
+- [Technical Stack](Technical-Stack)
+- [Getting Started](Getting-Started)
+- [Usage](Usage)
+- [Documentation](Documentation)
+- [Ethical Considerations](Ethical-Considerations)
+- [References](References)
+- [Acknowledgments](Acknowledgments)
 
 ### Key Features
 
@@ -40,9 +48,9 @@ Follow the instructions in the `setup.md` document to initialize the database an
 
 ### Documentation
 
-- **ETL Workflow**: Detailed documentation of the ETL process, including data transformation rules and loading strategies, is available in `docs/etl_workflow.md`.
-- **Database Schema**: The database design, including table structures and relationships, is described in `docs/db_design.md`. An Entity-Relationship Diagram (ERD) is also provided for visual reference.
-- **API Guide**: Instructions on utilizing the Flask API, including endpoint descriptions and example requests, can be found in `docs/api_usage.md`.
+- **ETL Workflow**: Detailed documentation of the ETL process, including data transformation rules and loading strategies, is available in [docs/etl_workflow.md](docs/etl_workflow.md).
+- **Database Schema**: The database design, including table structures and relationships, is described in [docs/db_design.md](docs/db_design.md). An Entity-Relationship Diagram (ERD) is also provided for visual reference.
+- **API Guide**: Instructions on utilizing the Flask API, including endpoint descriptions and example requests, can be found in [docs/api_usage.md](docs/api_usage.md).
 
 ### Ethical Considerations
 
