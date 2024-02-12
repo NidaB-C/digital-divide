@@ -1,0 +1,47 @@
+ElevationMetrics
+-
+ElevationMetricID TEXT PK
+ActivityID INTEGER FK - Activities.ActivityID
+TotalAscent INTEGER
+TotalDescent INTEGER
+MinElevation INTEGER
+MaxElevation INTEGER
+
+LapMetrics
+-
+LapID TEXT PK
+ActivityID INTEGER FK - Activities.ActivityID
+BestLapTimMin FLOAT
+NumberOfLaps INTEGER
+TotalDistanceKm FLOAT
+LapDistanceKm FLOAT
+MovingTimeMin FLOAT
+ElapsedTimeMin FLOAT
+
+	
+PerformanceMetrics
+-
+PerformanceID TEXT PK
+ActivityID INTEGER FK - Activities.ActivityID
+ActivityTypeID TEXT FK >- ActivityTypes.ActivityTypeID
+Distance FLOAT
+Calories FLOAT
+TimeMinutes FLOAT
+AvgHR INTEGER
+MaxHR INTEGER
+AerobicTE FLOAT
+AvgRunCadence FLOAT
+AvgPaceMinKm FLOAT
+BestPaceMinKm FLOAT
+
+ActivityTypes
+-
+ActivityTypeID TEXT PK
+ActivityType TEXT
+
+Activities
+-
+ActivityID INTEGER PK
+ActivityTypeID TEXT FK >- ActivityTypes.ActivityTypeID
+Date DATETIME
+Title TEXT
