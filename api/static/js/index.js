@@ -32,3 +32,6 @@ function visitAPI(linkval) {
 
 function showPopUp() {popup = document.getElementById("popup");
 popup.style.display = "block";}
+
+function closePopUp() {popup = document.getElementById("popup");
+popup.style.display = "none";}
