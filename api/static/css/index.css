@@ -7,16 +7,6 @@
     color: blue;
 }
 
-.visible-table, .visible-table th, .visible-table td {
-    border-style: solid;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 5px;
-}
-th {
-    background-color: lightgray;
-}
-
 .popup-table, .popup-table th, .popup-table td {
     border-style: solid;
     border-collapse: collapse;
