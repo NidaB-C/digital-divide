@@ -16,20 +16,7 @@ app.config['JSON_SORT_KEYS'] = False
 @app.route("/")
 def home():
 
-    message=["/api/activity-types",
-             "/api/activities/all",
-             "/api/activities/activity-type/{ActivityTypeID}",
-             "/api/activities/limit/{number_of_records}",
-             "/api/activities/date/{start_date}}/{end_date}",
-             "/api/performance-metrics/all",
-             "/api/performance-metrics/activity-type/{activity_type_id}",
-             "/api/performance-metrics/limit/{number of records}",            
-             "/api/lap-metrics/all",
-             "/api/lap-metrics/limit/{number_of_records}",            
-             "/api/elevation-metrics/all",
-             "/api/elev-metrics/limit/{number_of_records}"]
-
-    return render_template ("index.html",message=message)
+    return render_template ("index.html")
 
 
 
