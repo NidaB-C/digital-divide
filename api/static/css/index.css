@@ -29,7 +29,7 @@ th {
 
 #popup {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 30%;
     left: 30%;
     border: 10px;
