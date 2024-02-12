@@ -74,7 +74,7 @@
         <!--Performance Metrics-->
         <div class="row row-cols-4">
             <div class="col-md-3 mt-4"><img width="250px" src="../static/images/performance_metrics.webp"></div>
-            <div class="col-md-3 mt-1"><p><u><h5>Performance Metrics</h5></u>These end points provide performance data on the activities undertaken such as length of time, calories etc.</p></div>
+            <div class="col-md-3 mt-1"><p><u><h5>Performance Metrics</h5></u>These end points provide performance data on the activities undertaken such as length of time, calories etc.</p><p><button onclick="showPopUp()">Check ActivityTypeID</button></p></div>
             <div class="col-md-2 mt-4"><p><a href="/api/performance-metrics/all">/api/performance-metrics/all</a></p></div>
             <div class="col-md-4 mt-4"><p><span class="blue-text">/api/performance-metrics/activity-type/<span class="special-text">{ActivityTypeID}</span></span><br>&emsp;&emsp;Enter ActivityTypeID: <input type="text" id="i4" placeholder="AT001"><button onclick="visitAPI('link4')">Go</button><br>
                 <span class="blue-text">/api/performance-metrics/limit/<span class="special-text">{number_of_records}</span></span><br>&emsp;&emsp;Enter a Number: <input type="number" id="i5" placeholder=1><button  value onclick="visitAPI('link5')">Go</button></p></div>
